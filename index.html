@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World of Dagma | Fantasy Adventure MMORPG</title>
+  <meta name="description" content="World of Dagma - Choose your style, complete epic quests, gather & craft. A fantasy adventure inspired by classic sandbox MMORPGs. Beta now in development." />
+  <link rel="icon" type="image/webp" href="./assets/04.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css?v=15" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a class="brand" href="#home" aria-label="World of Dagma home">
+        <img src="./assets/04.webp" alt="World of Dagma logo" />
+        <span>World of Dagma</span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a class="is-current" href="#" aria-current="page" aria-disabled="true" onclick="return false">Home</a>
+        <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">News</a>
+        <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">Community</a>
+        <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">Explore</a>
+        <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">Updates</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a class="is-current" href="#" aria-current="page" aria-disabled="true" onclick="return false">Home</a>
+      <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">News</a>
+      <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">Community</a>
+      <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">Explore</a>
+      <a class="is-disabled" href="#" aria-disabled="true" tabindex="-1" onclick="return false">Updates</a>
+    </div>
+  </header>
+
+  <!-- HERO (Albion: big art + logo + PLAY FREE NOW) -->
+  <section class="hero" id="home">
+    <div class="hero-bg" role="img" aria-label="Elven warrior of Dagma"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-video" id="trailer">
+        <iframe
+          data-src="https://www.youtube-nocookie.com/embed/q2qhgz_wsbA?rel=0&amp;modestbranding=1"
+          title="World of Dagma official trailer"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        <div class="video-local-fallback">
+          <img src="./assets/InGameView/1%20(1).webp" alt="World of Dagma gameplay preview" />
+          <a href="https://www.youtube.com/watch?v=q2qhgz_wsbA" target="_blank" rel="noopener">
+            <span class="video-play" aria-hidden="true">▶</span>
+            <strong>Watch Gameplay</strong>
+            <small>Opens on YouTube</small>
+          </a>
+        </div>
+      </div>
+      <div class="platform-badges" aria-label="Platforms">
+        <div class="platform-badge is-unavailable" aria-label="Windows - Coming soon" aria-disabled="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 4l9-1v8H2zm11-1.3L22 1v10h-9zM2 13h9v8l-9-1zm11 0h9v10l-9-1.7z"/></svg>
+          <span><small>PC · COMING SOON</small><strong>Windows</strong></span>
+        </div>
+        <div class="platform-badge is-unavailable" aria-label="Android, Google Play - Coming soon" aria-disabled="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#32bbff" d="M3 2l11 10L3 22z"/><path fill="#00d26a" d="M3 2l14 8-3 2z"/><path fill="#ffce00" d="M17 10l4 2-4 2-3-2z"/><path fill="#ff4545" d="M3 22l11-10 3 2z"/></svg>
+          <span><small>ANDROID · COMING SOON</small><strong>Google Play</strong></span>
+        </div>
+        <div class="platform-badge is-unavailable" aria-label="iOS, App Store - Coming soon" aria-disabled="true">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5" fill="#1677ef"/><g stroke="white" stroke-width="1.8" stroke-linecap="round"><path d="M9 5l8 14M15 5L7 19M4 15h16"/></g></svg>
+          <span><small>iOS · COMING SOON</small><strong>App Store</strong></span>
+        </div>
+      </div>
+    </div>
+    <a class="scroll-down" href="#about" aria-label="Learn more about World of Dagma">▼</a>
+  </section>
+
+  <main>
+    <!-- ABOUT & COMMUNITY -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+      <div class="about-copy">
+        <p class="eyebrow">Enter the World</p>
+        <h2>About World of Dagma</h2>
+        <p>World of Dagma is a 3D mobile MMORPG set in a seamless open world filled with flying mounts, real-time PvP and new adventures. Choose your path as a Mage, Warrior, Ranger and more; explore distant lands, complete quests, defeat monsters and grow stronger with every journey.</p>
+        <p>Follow the official community channels for gameplay videos, development news and future release updates.</p>
+      </div>
+    </div>
+  </section>
+<!-- IN-GAME SHOWCASE -->
+  <section class="game-showcase" id="gallery">
+    <div class="showcase-stage">
+      <img id="showcaseImage" src="./assets/InGameView/1%20(1).webp" alt="Character creation in World of Dagma" />
+      <div class="showcase-shade"></div>
+      <div class="showcase-copy">
+        <div class="showcase-number"><span>Feature</span><strong id="showcaseNumber">01</strong></div>
+        <h2 id="showcaseTitle">Create Your Hero</h2>
+        <h3 id="showcaseLabel">Character Customization</h3>
+        <p id="showcaseText">Choose your hair, outfit and style before stepping into the world of Dagma.</p>
+        <div class="showcase-dots" id="showcaseDots" aria-label="In-game screenshots"></div>
+      </div>
+      <button class="showcase-arrow showcase-prev" id="showcasePrev" type="button" aria-label="Previous screenshot">‹</button>
+      <button class="showcase-arrow showcase-next" id="showcaseNext" type="button" aria-label="Next screenshot">›</button>
+    </div>
+    <div class="showcase-grid">
+      <article class="showcase-tile">
+        <img src="./assets/InGameView/1%20(5).webp" alt="Exploring the open world" loading="lazy" />
+        <div><span>Explore</span><h3>A Living Open World</h3></div>
+      </article>
+      <article class="showcase-tile">
+        <img src="./assets/InGameView/1%20(6).webp" alt="Adventures in Dagma" loading="lazy" />
+        <div><span>Adventure</span><h3>Your Journey, Your Way</h3></div>
+      </article>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="./assets/04.webp" alt="World of Dagma" class="foot-logo" />
+        <h3 class="footer-studio">Dagma Game Studio</h3>
+        <p class="footer-links-title">Follow World of Dagma</p>
+        <div class="social">
+          <a href="https://www.youtube.com/@WorldOfDagmaOfficial" target="_blank" rel="noopener"><img class="footer-social-icon" src="https://cdn.simpleicons.org/youtube/E8B34B" alt="" aria-hidden="true" />YouTube</a>
+          <a href="https://discord.com/invite/AUTr9bDnyN" target="_blank" rel="noopener"><img class="footer-social-icon" src="https://cdn.simpleicons.org/discord/E8B34B" alt="" aria-hidden="true" />Discord</a>
+          <a href="https://facebook.com/groups/1809750336191022" target="_blank" rel="noopener"><img class="footer-social-icon" src="https://cdn.simpleicons.org/facebook/E8B34B" alt="" aria-hidden="true" />Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Dagma Game Studio · World of Dagma · All rights reserved.</div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="lbClose">×</span>
+    <img id="lbImg" src="" alt="preview" />
+  </div>
+
+  <script src="./script.js?v=3"></script>
+</body>
+</html>
